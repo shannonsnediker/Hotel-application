@@ -1,8 +1,7 @@
 # The Lodge
 
 ## Stack
-
-
+LAMP
 
 ## About the Lodge
 Based on a picturesque setting in a remote mountain location, the lodge is a boutique hotel that was built on the intention to excite each guest into the wonder of nature. Built with cedar wood and nestled in a grove by a healthy creek, the large windows and outdoor access to a sauna invites the attendee to relax and listen to the world around them...
