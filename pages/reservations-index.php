@@ -19,15 +19,13 @@ $stmt->execute();
 if ($row = $stmt->fetch()) {
     $userId = $row['userId'];
 
-    // Fetch reservations based on userId
     $sqlFetchReservations = "SELECT * FROM reservations WHERE userId = ?";
     $stmtReservations = $conn->prepare($sqlFetchReservations);
     $stmtReservations->bindParam(1, $userId);
     $stmtReservations->execute();
 
-    // Check if there are results before fetching
+   
     if ($stmtReservations) {
-        // Display reservations
         while ($reservation = $stmtReservations->fetch()) {
             echo "<div class='reservation-info'>
                 <p>Reservation ID: " . $reservation['reservationId'] . "</p>
