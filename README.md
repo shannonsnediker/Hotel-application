@@ -13,6 +13,6 @@ The database is designed to facilitate smoooth bookings, reservations, and hotel
 
 ## SQL Code and ERD Diagram
 
-This project contains the SQL code for the lodging databse and an image of its ERD.
+This project contains the SQL code for the lodging databse and an image of its ERD. Both are located in the db file.
 
 The user interface will be divided into three levels of access: employee, guest, and admin. A single table called userType has been created to integrate this access within the database, allowing certain tables and information to be viewed only by the designated staff. This maintains order and privacy of our information. The database has four main groupings of tables: data related to rooms (dark green), data related to employees (light green), data related to operations (light blue), and even bookings (pink). User type and information is depicted in red in the ERD. 
